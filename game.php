@@ -1,4 +1,5 @@
 <?php
+
 error_reporting(E_ERROR | E_PARSE);
 include('Card.php');
 session_start();
@@ -322,7 +323,6 @@ isEnd();
             <?php endforeach;?>
         </div>        
     </div>
-
     <?php endif; ?>
 
 </body>
